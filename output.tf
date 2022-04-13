@@ -12,5 +12,5 @@ output "azurerm_subnet"  {
     value = azurerm_subnet.examplesubnet.id
 }
 output "azurerm_network_interface"  {
-    value = azurerm_network_interface.example-nic.id
+    value = azurerm_network_interface.example-nic.private_ip_address
 }
